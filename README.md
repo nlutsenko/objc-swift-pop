@@ -1,5 +1,6 @@
 # ObjC -> Swift with *pop*
 
+Presented at [Silicon Valley Swift Programming Group](http://www.meetup.com/SWIFTProgramming/events/226584469/) on December 8 2015, with Deckset theme "Merriweather" in the black color scheme.
 
 ## License
 
