@@ -4,9 +4,9 @@ build-lists:true
 #[fit] ObjC -> Swift with *pop*!
 <br>
 #### Nikita Lutsenko
+#### Facebook, Parse
 #### @nlutsenko
 #### github.com/nlutsenko
-#### Facebook, Parse
 
 ---
 
@@ -88,8 +88,8 @@ Removes method/property from Swift interface entirely.
 
 <br>
 <br>
-<br>
 # Questions?
 <br>
 #### @nlutsenko
 #### github.com/nlutsenko
+#### github.com/nlutsenko/objc-swift-pop
