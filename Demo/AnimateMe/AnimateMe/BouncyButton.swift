@@ -34,15 +34,20 @@ class BouncyButton: UIButton {
 }
 
 extension BouncyButton {
+
     func scaleToSmall() {
         let animation = POPBasicAnimation(propertyNamed: kPOPLayerScaleXY)
         animation.toValue = NSValue(CGSize: CGSizeMake(0.75, 0.75))
-        layer.pop_addAnimation(animation, forKey: scaleAnimationKey)
+        attachScaleAnimation(animation)
     }
 
     func scaleToDefault() {
         let animation = POPBasicAnimation(propertyNamed: kPOPLayerScaleXY)
         animation.toValue = NSValue(CGSize: CGSizeMake(1.0, 1.0))
+        attachScaleAnimation(animation)
+    }
+
+    func attachScaleAnimation(animation: POPBasicAnimation) {
         layer.pop_addAnimation(animation, forKey: scaleAnimationKey)
     }
 }
